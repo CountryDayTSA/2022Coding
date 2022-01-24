@@ -6,7 +6,7 @@ public class test {
         System.out.println(c1.getGradeOfClass(1,1));
         System.out.println(c1.getFinalGPA());
         System.out.println(c1.getGradeOfClass(2,4));
-        System.out.println(c1.getGradeOfClass(6, 1));
+        System.out.println(c1.getGradeOfClass(8, 1));
         System.out.println(c1.getFinalGPA());
     }
 }

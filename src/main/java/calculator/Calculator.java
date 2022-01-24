@@ -1,5 +1,5 @@
 package calculator;
-
+import java.text.DecimalFormat;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
@@ -13,6 +13,7 @@ public class Calculator {
         this.allGrades = new ArrayList<>();
     }
     public double getGradeOfClass(double grade,int weighting){
+
         if(grade == 1){
             grade = 4.0;
         }
@@ -51,6 +52,7 @@ public class Calculator {
         }
         else if(weighting == 2){
             grade *= Honors;
+
         }
         else if(weighting  == 3){
             grade *= CollegeOthers;
@@ -59,6 +61,8 @@ public class Calculator {
             grade *= Elective;
         }
         allGrades.add(grade);
+         DecimalFormat df = new DecimalFormat("#.##");
+         df.format(grade);
         return grade;
     }
 
