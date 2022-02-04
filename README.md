@@ -26,7 +26,7 @@ Java 16
 2. Source for GUI: `./src/main/java/gui/GPACalculator/GPACalculator.form`
 3. Source code: `./src/main/java/gui/GPACalculator/GPACalculator`
 
-### III. Building the package on your own
+### III. Building the package on your own in Intellj IDEA
 
 1. Open Project structure
 2. Go to `Artifact`
