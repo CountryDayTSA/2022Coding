@@ -1,6 +1,5 @@
 package gui;
 
-import calculator.Calculator;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
