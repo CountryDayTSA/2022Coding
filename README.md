@@ -4,15 +4,15 @@
 
 ### I. For running the code
 Environmental requirements:
-Git,
+Git (optional),
 Java 16
 
 #### a. Download dependencies
-1. Install Git: Here's the link https://git-scm.com/downloads. Or you can download the code from this page.
+1. Install Git(Optional): Here's the link https://git-scm.com/downloads. Or you can download the code from this page.
 2. Install Java 16: https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html
 
 #### b. Check the installation of dependencies.
-1. Git: Launch Windows PowerShell on Windows or Terminal in Linux, run the command: `git version`. Version will show if installation is successful.
+1. Git(Optional): Launch Windows PowerShell on Windows or Terminal in Linux, run the command: `git version`. Version will show if installation is successful.
 2. Java: Launch Windows PowerShell on Windows or Terminal in Linux, run the command: `java -version`. Version will show if installation is successful.
 
 #### c. Run the code
@@ -30,7 +30,7 @@ Java 16
 
 1. Open Project structure
 2. Go to `Artifact`
-3. Click `+` 
+3. Click `+`
 4. Click `JAR`
 5. Click `Modules with dependencies`
 6. Click `Apply` then `OK`
